@@ -41,5 +41,5 @@ gcp.download_objects()
 ```
 
 ## Links
-Code: https://github.com/tzankov/safehaven
-Releases on Pypi: https://pypi.org/project/safehaven
+* Code: https://github.com/tzankov/safehaven
+* Releases on Pypi: https://pypi.org/project/safehaven
