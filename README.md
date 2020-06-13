@@ -9,6 +9,11 @@ This library allows users to list, upload and download objects to and from the f
 * Google Cloud Platform (GCP Storage)
 
 ## Usage
+### Installation
+```
+pip install safehaven
+```
+
 ### AWS
 ```
 from safehaven import Aws
