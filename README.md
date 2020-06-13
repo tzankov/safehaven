@@ -30,7 +30,6 @@ blob.upload_objects()
 blob.download_objects()
 ```
 
-
 ### GCP
 ```
 from safehaven import Gcp
@@ -40,3 +39,7 @@ gcp.list_objects()
 gcp.upload_objects()
 gcp.download_objects()
 ```
+
+## Links
+Code: https://github.com/tzankov/safehaven
+Releases on Pypi: https://pypi.org/project/safehaven
