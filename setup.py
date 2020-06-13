@@ -7,7 +7,7 @@ setup(
 	name='safehaven',
 	version='0.1.0',
 	author="Tzankov",
-    author_email="tzankotz@gmail.com",
+    author_email="tzankotz@hotmail.com",
 	description='Library to list, upload and download objects from AWS S3, Azure Blob Storage, and GCP Storage.',
 	keywords="aws gcp azure s3 azureblob gcpblob blob cloud storage cloudstorage",
 	long_description=readme,
