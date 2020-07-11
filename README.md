@@ -16,7 +16,7 @@ pip install safehaven
 
 ### AWS
 ```
-from safehaven.lib import Aws
+from safehaven import Aws
 s3 = Aws()
 s3.create_client('s3-shared-object-store-test', 'file_names', 'region', 'aws_access_key_id', 'aws_secret_access_key')
 s3.list_objects()
@@ -26,7 +26,7 @@ s3.download_objects()
 
 ### Azure
 ```
-from safehaven.lib import Azure
+from safehaven import Azure
 blob = Azure()
 blob.create_client('container_name', 'file_names', 'connection_string')
 blob.list_objects()
@@ -36,7 +36,7 @@ blob.download_objects()
 
 ### GCP
 ```
-from safehaven.lib import Gcp
+from safehaven import Gcp
 gcp = Gcp()
 gcp.create_client('project_name' 'storage_bucket_name', 'location_and_name_of_files', 'key_file')
 gcp.list_objects()
