@@ -1,11 +1,13 @@
-from setuptools import setup, find_packages
+from setuptools import setup
+import os
 
-with open('README.md', encoding='UTF-8') as f:
-	readme = f.read()
+cwd = os.path.abspath(os.path.dirname(__file__))
+
+readme = open(os.path.join(cwd, 'README.md')).read()
 
 setup(
 	name='safehaven',
-	version='0.1.3',
+	version='0.1.5',
 	author="Tzankov",
     author_email="tzankotz@hotmail.com",
 	description='Library to list, upload and download objects from AWS S3, Azure Blob Storage, and GCP Storage.',

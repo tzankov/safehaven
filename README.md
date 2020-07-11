@@ -15,7 +15,7 @@ pip install safehaven
 ```
 
 ### AWS
-```
+```  
 from safehaven import Aws
 s3 = Aws()
 s3.create_client('s3-shared-object-store-test', 'file_names', 'region', 'aws_access_key_id', 'aws_secret_access_key')
