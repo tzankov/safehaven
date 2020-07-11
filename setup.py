@@ -5,7 +5,7 @@ with open('README.md', encoding='UTF-8') as f:
 
 setup(
 	name='safehaven',
-	version='0.1.2',
+	version='0.1.3',
 	author="Tzankov",
     author_email="tzankotz@hotmail.com",
 	description='Library to list, upload and download objects from AWS S3, Azure Blob Storage, and GCP Storage.',
@@ -17,7 +17,6 @@ setup(
 		'azure-storage-blob==12.3.0',
 		'google-cloud-storage==1.25.0'
 		],
-	packages=find_packages('safehaven'),
-    package_dir={"": "lib"},
+	packages=['safehaven'],
 	python_requires=">=3.6"
 	)

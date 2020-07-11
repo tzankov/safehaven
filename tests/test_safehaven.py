@@ -4,7 +4,7 @@ Tests currently cover AWS ONLY. Testing for GCP and Azure needs to be added
 
 import boto3
 from moto import mock_s3
-from safehaven.lib import Aws
+from safehaven import Aws
 
 @mock_s3
 def test_upload():
