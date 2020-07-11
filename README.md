@@ -47,7 +47,7 @@ gcp.download_objects()
 ### Testing this library
 ```
 pip install moto
-python3 tests/test_safehaven.py
+python3 ~/safehaven/tests/test_safehaven.py
 ```
 
 
